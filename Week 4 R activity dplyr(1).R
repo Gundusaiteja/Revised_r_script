@@ -6,7 +6,6 @@ library(dplyr) # Loading Dplyr package
 #Task: Write the function to get a dataset from Base R: Titanic
 Df_Titanic <- read.csv('Gundusaiteja/Revised_r_script/Titanic.csv')
 
-
 #and give the dataframe a new name of your choice
 #(hint: you will want your data to be a dataframe. Use the function: as.data.frame(Titanic))
 df_titanic_data <- data.frame(Df_Titanic)
